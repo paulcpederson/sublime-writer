@@ -1,0 +1,100 @@
+// example, in Packages/Python/Python.sublime-settings for python files.
+{
+    // Sets the colors used within the text area
+    "color_scheme": "Packages/Color Scheme - Sublime Writer/SublimeWriter.tmTheme",
+
+    // Note that the font_face and font_size are overriden in the platform
+    // specific settings file, for example, "Preferences (Linux).sublime-settings".
+    // Because of this, setting them here will have no effect: you must set them
+    // in your User File Preferences.
+    "font_face": "Nitti Light",
+    "font_size": 23,
+
+    // Additional spacing at the top of each line, in pixels
+    "line_padding_top": 6,
+
+    // Additional spacing at the bottom of each line, in pixels
+    "line_padding_bottom": 5,
+
+    // Valid values are "system", "enabled" and "disabled"
+    "overlay_scroll_bars": "disabled",
+
+    // Valid options are "no_bold", "no_italic", "no_antialias", "gray_antialias",
+    // "subpixel_antialias", "no_round" (OS X only) and "directwrite" (Windows only)
+    "font_options": [],
+
+    "highlight_line": true,
+
+    "wide_caret": true,
+
+    "caret_style": "smooth",
+
+    // Characters that are considered to separate words
+    "word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?",
+
+    // Set to false to prevent line numbers being drawn in the gutter
+    "line_numbers": false,
+
+    // Set to false to hide the gutter altogether
+    "gutter": true,
+
+    // Spacing between the gutter and the text
+    "margin": 20,
+
+    // Fold buttons are the triangles shown in the gutter to fold regions of text
+    "fold_buttons": false,
+
+    // Hides the fold buttons unless the mouse is over the gutter
+    "fade_fold_buttons": false,
+
+    // Columns in which to display vertical rulers
+    "rulers": [],
+
+    // Set to true to turn spell checking on by default
+    "spell_check": false,
+
+    // The number of spaces a tab is considered equal to
+    "tab_size": 4,
+
+    // Set to true to insert spaces when tab is pressed
+    "translate_tabs_to_spaces": false,
+
+    // If translate_tabs_to_spaces is true, use_tab_stops will make tab and
+    // backspace insert/delete up to the next tabstop
+    "use_tab_stops": false,
+
+    // Set to false to disable detection of tabs vs. spaces on load
+    "detect_indentation": false,
+
+    // Calculates indentation automatically when pressing enter
+    "auto_indent": false,
+
+    // Makes auto indent a little smarter, e.g., by indenting the next line
+    // after an if statement in C. Requires auto_indent to be enabled.
+    "smart_indent": false,
+
+    // Adds whitespace up to the first open bracket when indenting. Requires
+    // auto_indent to be enabled.
+    "indent_to_bracket": false,
+
+    // Trims white space added by auto_indent when moving the caret off the
+    // line.
+    "trim_automatic_white_space": false,
+
+    // Disables horizontal scrolling if enabled.
+    // May be set to true, false, or "auto", where it will be disabled for
+    // source code, and otherwise enabled.
+    "word_wrap": "true",
+
+    // Set to a value other than 0 to force wrapping at that column rather than the
+    // window width
+    "wrap_width": 62,
+
+    // Set to false to prevent word wrapped lines from being indented to the same
+    // level
+    "indent_subsequent_lines": true,
+
+    // Draws text centered in the window rather than left aligned
+    "draw_centered": true
+
+}
